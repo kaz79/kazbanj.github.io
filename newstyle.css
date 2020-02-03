@@ -1,0 +1,492 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+}
+
+header {
+    position: fixed;
+    background-color: #fff;
+    max-width: inherit;
+    height: 100vh;
+    padding: 30px 27px;
+    box-sizing: border-box;
+}
+
+.header-nav ul {
+    list-style: none;
+}
+
+.header-nav ul li {
+    padding-top: 25px;
+}
+
+.header-nav ul li:first-child {
+    padding-bottom: 30px;
+}
+
+.header-nav ul li a {
+    text-decoration: none;
+    color:  #008073;
+}
+
+.first-nav-item {
+    border-bottom: 1px solid rgb(212, 205, 205);
+    padding-bottom: 5px;
+}
+
+.first-nav-item a {
+    font-size: 200%;
+    margin-bottom: 10px;
+    font-weight: 700;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+
+.first-nav-item span {
+    font-size: 90%;
+    font-weight: 300;
+    color: #000;
+}
+
+main {
+    padding-left: 190px;
+    background: linear-gradient(rgba(00, 80, 73, 0.001),rgba(00, 80, 73, 0.001)), url(imgs/mainbg.jpg) repeat;
+}
+
+.home {
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(imgs/andrew-borstein-2a.jpg) no-repeat top center/cover;
+    height: 100vh;
+}
+
+.home-text {
+    padding: 50px;
+    font-size: 30px;
+    color: #fff;
+}
+
+#home-markbg {
+    background-color: #008073;
+}
+
+#home-underline {
+    border-bottom: 5px solid #008073;
+}
+
+/*.about div {
+    margin: auto;
+}*/
+
+.about-page {
+    background-color: #008073;
+    padding: 30px 0px 30px 30px;
+    margin-bottom: 40px;
+}
+
+.about-page h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.about-page-text {
+    margin-left: 50px;
+    margin-right: 70px;
+    margin-bottom: 30px;
+}
+
+.about-page-text h3 {
+    padding-left: 18px;
+    border-left: 5px solid #795548;
+    font-size: 30px;
+    color: #795548;
+}
+
+.about-page-innertext {
+    margin-left: 50px;
+    margin-right: 70px;
+    margin-bottom: 30px;
+}
+
+.about-page-innertext p {
+    word-spacing: 5px;
+    line-height: 40px;
+    font-size: 30px;
+}
+
+.about-page-last {
+    margin-left: 50px;
+    margin-right: 70px;
+    margin-bottom: 30px;
+}
+
+.about-page-last p {
+    word-spacing: 5px;
+    line-height: 40px;
+    font-size: 28px;
+}
+
+.about-page-last p a {
+    text-decoration: none;
+    color: #008073;
+}
+
+.experience-page {
+    background-color: #008073;
+    padding: 30px 0px 30px 30px;
+    margin-bottom: 40px;
+}
+
+.experience-page h2 {
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.experience-page-inner {
+    background-color: #fff;
+    box-shadow: 2px 2px 2px 2px rgb(224, 219, 219);
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 170px;
+    margin-right: 170px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.experience-page-nav {
+    display: flex;
+    padding: 15px;
+    border-bottom: 1px solid #cfdad8;
+    margin-bottom: 15px;
+}
+
+.experience-page-nav1 {
+    margin-right: 60px;
+}
+
+.experience-page-nav2 {
+    margin-right: 300px;
+}
+
+.experience-page-nav2 a {
+    text-decoration: none;
+    color: #008073;
+}
+
+.experience-page-nav3 p {
+    font-size: 20px;
+}
+
+.experience-page-text {
+    padding: 10px 7px 5px;
+    margin-bottom: 15px;
+}
+
+.experience-page-text p {
+    font-size: 18px;
+}
+
+.experience-list1 {
+    padding-left: 7px;
+    margin-bottom: 20px;
+}
+
+.experience-list2 {
+    padding-left: 7px;
+    margin-bottom: 20px;
+}
+
+.experience-list1 p {
+    /* padding-left: 15px; */
+    margin-bottom: 20px;
+}
+
+.experience-list1 ul {
+    padding-left: 40px;
+}
+
+.experience-list1 ul li {
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.experience-list2 p {
+    /* padding-left: 15px; */
+    margin-bottom: 20px;
+}
+
+.experience-list2 ul {
+    padding-left: 40px;
+}
+
+.experience-list2 ul li {
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.experience-page-last {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgb(250, 250, 250);
+    padding-left: 7px;
+}
+
+.project {
+    margin-bottom: 100px;
+}
+
+.project-page {
+    background-color: #008073;
+    padding: 30px 0px 30px 30px;
+    margin-bottom: 40px;
+}
+
+.project-page h2 {
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.project-page-container {
+    display: flex;
+}
+
+.project-page-cover{
+    background-color: #f4f4f4;
+    box-shadow: 2px 2px 2px 2px rgb(224, 219, 219);
+    margin-left: 45px;
+    margin-right: 90px;
+}
+
+.project-page-cover1 {
+    background-color: #f4f4f4;
+    box-shadow: 2px 2px 2px 2px rgb(224, 219, 219);
+    /* margin-left: 45px; */
+    margin-right: 90px;
+} 
+
+.project-page-cover2 {
+    background-color: #f4f4f4;
+    box-shadow: 2px 2px 2px 2px rgb(224, 219, 219);
+    /* margin-left: 45px; */
+    margin-right: 85px;
+} 
+
+#project-cover1 {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.project-page-links {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.project-page-links a {
+    text-decoration: none;
+    color: #008073;
+}
+
+.skills-page {
+    background-color: #008073;
+    padding: 30px 0px 30px 30px;
+    margin-bottom: 40px;
+}
+
+.skills-page h2 {
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.skills-cover {
+    display: flex;
+}
+
+.skills-cover p {
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+}
+
+.skills-page-header {
+    border-bottom: 1px solid rgb(214, 206, 206);
+}
+
+.skills-page-header p {
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+.skills-page-container {
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: #fff;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 120px;
+    box-shadow: 2px 2px 2px 2px rgb(224, 219, 219);
+}
+
+.award-page {
+    background-color: #008073;
+    padding: 30px 0px 30px 30px;
+    margin-bottom: 40px;
+}
+
+.award-page h2 {
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.award-page-cover {
+    display: flex;
+}
+
+.awards-text a {
+    text-decoration: none;
+    color: #008073;
+}
+
+.award-page-container {
+    background-color: #fff;
+    box-shadow: 2px 2px 2px 2px rgb(224, 219, 219);
+    margin-top: 60px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    padding: 25px;
+}
+
+.award-page-container2 {
+    background-color: #fff;
+    box-shadow: 2px 2px 2px 2px rgb(224, 219, 219);
+    margin-top: 60px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    padding: 25px;
+}
+
+/* #education {
+    display: flex;
+} */
+
+.education-page {
+    background-color: #008073;
+    padding: 30px 0px 30px 30px;
+    margin-bottom: 40px;
+}
+
+.education-page h2 {
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.education-page-cover {
+    display: flex;
+}
+
+.education-page-text a {
+    color: #008073;
+    text-decoration: none;
+}
+
+.education-page-container {
+    background-color: #fff;
+    box-shadow: 2px 2px 2px 2px rgb(224, 219, 219);
+    margin-top: 60px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    padding: 25px;
+}
+
+.education-page-container1 {
+    background-color: #fff;
+    box-shadow: 2px 2px 2px 2px rgb(224, 219, 219);
+    margin-top: 60px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    padding: 25px;
+}
+
+.contact-page {
+    background-color: #008073;
+    padding: 30px 0px 30px 30px;
+    margin-bottom: 40px;
+}
+
+.contact-page h2 {
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.contact-page-text a {
+    text-decoration: none;
+    color: #008073;
+    font-size: 20px;
+}
+
+.contact-page-text {
+    margin-top: 80px;
+    margin-left: 150px;
+    margin-bottom: 70px;
+}
+
+.contact-page-text:last-child {
+    margin-bottom: 240px;
+}
+
+.blog-page {
+    background-color: #008073;
+    padding: 30px 0px 30px 30px;
+    margin-bottom: 40px;
+}
+
+.blog-page h2 {
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.blog-page-text {
+    margin-top: 90px;
+    margin-left: 60px;
+    margin-bottom: 40px;
+}
+
+.blog-page-text p {
+    font-size: 30px;
+}
+
+.blog-page-text1 {
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 40px;
+}
+
+.blog-page-text1 a {
+    color: #008073;
+    font-size: 20px;
+}
+
+.blog-page-text2 {
+    margin-top: 20px;
+    margin-left: 60px;
+    padding-bottom: 300px;
+}
+
+.blog-page-text2 {
+    font-size: 20px;
+}
+
